@@ -30,7 +30,7 @@ const ShowBy: FC = () => {
             <option
               key={optionText}
               value={optionText}
-              selected={itemsPerPage === optionText}
+              // selected={itemsPerPage === optionText}
             >
               {optionText}
             </option>

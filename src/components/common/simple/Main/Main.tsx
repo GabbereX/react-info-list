@@ -7,8 +7,6 @@ import ShowBy from '../../smart/ShowBy/ShowBy';
 const Main: FC = () => {
   return (
     <main className={'container'}>
-      <Pagination />
-      <ShowBy />
       <Table />
       <ShowBy />
       <Pagination />
