@@ -1,0 +1,10 @@
+.select {
+  position: relative;
+  left: 10px;
+  bottom: 4px;
+  &Container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}

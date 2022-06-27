@@ -1,0 +1,28 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.button {
+  padding: 5px 5px;
+  min-width: 35px;
+  max-width: 35px;
+  color: #fff;
+  background: #333;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: color 0.3s ease, background 0.3s ease;
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
+  &:hover {
+    color: #333;
+    background: #d5d5d5;
+  }
+  &:disabled {
+    color: #333;
+    background: #d5d5d5;
+    cursor: default;
+  }
+}
